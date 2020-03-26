@@ -5,9 +5,13 @@
 Endpoints Exposed are:
 
 GET     /todo/getAll 
-GET     /todo/getToDo/{id} 
+
+GET     /todo/getToDo/{id}
+
 POST    /todo/createToDo 
+
 DELETE  /todo/deleteToDo/{id} 
+
 PUT     /todo/updateToDo/{id}
 
 # Payload format adding a new ToDo is:
